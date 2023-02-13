@@ -3,6 +3,7 @@ import {
 	createBrowserRouter,
 	Link,
 	RouterProvider,
+	useNavigate,
 	useParams,
 } from "react-router-dom";
 import "./style.css";
@@ -112,9 +113,13 @@ function DayTable(day, i, rowNumber, colors, special) {
 }
 
 function InfoPane({ info }) {
+	const navigate = useNavigate();
+
 	return (
 		<div className="infoPane">
-			<div className="infoClass">{info.group}</div>
+			<div className="infoClass" onClick={() => navigate("/")}>
+				{info.group}
+			</div>
 			<div className="infoYear">{info.year}</div>
 			<div className="infoSem">{info.semester}</div>
 			<div className="infoVer">{info.version}</div>
@@ -155,19 +160,23 @@ function errorElement() {
 		<div>
 			<h1>❌ Error 404: Page not Found</h1>
 			<h2>
-				Invalid URL.{" "}
-				<Link to={"/"}>Go back home.</Link>
+				Invalid URL. <Link to={"/"}>Go back home.</Link>
 			</h2>
 		</div>
 	);
 }
 
 function Home() {
+	const navigate = useNavigate();
+
 	return (
 		<h1 className="homePage">
-			<Link to={"/G1"}>G1</Link>
+			{/* <Link to={"/G1"}>G1</Link>
 			<Link to={"/G2"}>G2</Link>
-			<Link to={"/G3"}>G3</Link>
+			<Link to={"/G3"}>G3</Link> */}
+			<div className="infoClass" onClick={() => navigate("G1")}>G1</div>·
+			<div className="infoClass" onClick={() => navigate("G2")}>G2</div>·
+			<div className="infoClass" onClick={() => navigate("G3")}>G3</div>
 		</h1>
 	);
 }
