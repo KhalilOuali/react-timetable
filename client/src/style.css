@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Dosis:wght@600&family=Fira+Code:wght@500&family=Oswald&family=Rajdhani:wght@700&family=PT+Sans:wght@700&family=Roboto+Slab:wght@600&display=swap');
+
+:root {
+  --myblack: #222;
+	--factor: .8;
+	--timeFactor: .9;
+	--rootSize: 19px;
+}
+
+html {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  font-size: var(--rootSize);
+}
+
+body {
+  color: var(--myblack);
+  font-family: sans-serif;
+  width: 100rem;
+
+  margin: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  padding: 1rem;
+  gap: 0.5rem;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.homePage {
+	display: flex;
+	align-self: center;
+	margin: auto;
+	gap: 1rem;
+}
+.homePage > a {
+	background-color: #EEF;
+	padding: 0.5rem 1.5rem;
+	border-radius: 1rem;
+	border: 0.2rem solid;
+}
+
+.infoPane {
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: repeat(3, max-content);
+  /* gap: 0.8rem; */
+  padding: 0 1rem;
+}
+.infoClass {
+  font-family: 'Rajdhani';
+  font-size: calc(var(--factor) * 3rem);
+  grid-column: 1;
+}
+.infoYear {
+  font-family: 'Dosis';
+  font-size: calc(var(--factor) * 2.3rem);
+	margin-left: 0.9rem;
+  grid-column: 2;
+}
+.infoSem {
+  font-family: 'Dosis';
+  font-size: calc(var(--factor) * 1.8rem);
+	margin-left: 0.7rem;
+  grid-column: 3;
+}
+.infoVer {
+  font-family: 'Fira Code';
+  font-size: calc(var(--factor) * 1.6rem);
+  text-align: right;
+  grid-column: 4;
+}
+
+.weekTable {
+  display: grid;
+  grid-auto-columns: 1fr;
+  flex: 1;
+}
+.dayTable {
+  display: grid;
+}
+
+.dayTable,
+.session {
+  outline-color: var(--myblack);
+  outline-width: 0.4rem;
+  outline-style: solid;
+  outline-offset: -0.2rem;
+}
+
+.dayName,
+.sessionSubject,
+.label,
+.specialLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.label {
+  gap: 0.6rem;
+  font-family: 'PT Sans';
+  font-size: calc(var(--factor) * 1.7rem);
+}
+
+.dayName {
+  background-color: var(--myblack);
+  color: white;
+  font-family: 'Chakra Petch';
+  font-size: calc(var(--factor) * 1.5rem);
+  letter-spacing: 0.07rem;
+}
+
+.session {
+  display: grid;
+  padding: 0.5rem;
+	gap: 0.12rem;
+}
+.specialLabel {
+  color: #444;
+  font-family: 'PT Sans';
+  font-size: calc(var(--factor) * 1.5rem);
+}
+.roomLabel {
+  display: flex;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  justify-content: center;
+  font-family: 'Roboto Slab';
+  font-size: calc(var(--factor) * 1.2rem);
+}
+
+.startTime,
+.endTime {
+  display: flex;
+  justify-content: left;
+  font-size: calc(var(--timeFactor) * 1.1rem);
+  font-family: sans-serif;
+	font-weight: 500;
+  font-style: italic;
+}
+.startTime {
+  align-items: top;
+}
+.endTime {
+  align-items: end;
+}

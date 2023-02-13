@@ -1,0 +1,200 @@
+{
+  "info": {
+    "group": "LCE2 G3",
+    "year": "2022/2023",
+    "semester": "Semestre 2",
+    "version": "(v2)"
+  },
+  "colors": {
+    "Cours": "#BCEEFA",
+    "TD": "#C3F8C0",
+    "TP": "#FABCBC",
+    "-": "#FAF6A4"
+  },
+  "special": ["Cours"],
+  "days": [
+    {
+      "name": "Lundi",
+      "sessions": [
+        {
+          "start": "08:30",
+          "end": "10:00",
+          "type": "TP",
+          "subject": "Web",
+          "room": "Salle E"
+        },
+        {
+          "start": "10:15",
+          "end": "11:45",
+
+          "type": "TP",
+          "subject": "BD",
+          "room": "-",
+
+          "type2": "TP",
+          "subject2": "Sécurité",
+          "room2": "-"
+        },
+        {
+          "start": "13:00",
+          "end": "14:30",
+          "type": "TP",
+          "subject": "Mobile",
+          "room": "-"
+        },
+        {
+          "start": "14:45",
+          "end": "16:15",
+          "type": "TD",
+          "subject": "Anglais",
+          "room": "Lang Lab"
+        }
+      ]
+    },
+    {
+      "name": "Mardi",
+      "sessions": [
+        {
+          "start": "08:30",
+          "end": "10:00",
+          "type": "Cours",
+          "subject": "SoC",
+          "room": "Ch1"
+        },
+        {
+          "start": "10:15",
+          "end": "11:45",
+          "type": "Cours",
+          "subject": "SoC",
+          "room": "Ch1"
+        },
+        {
+          "start": "13:00",
+          "end": "14:30",
+          "type": "TD",
+          "subject": "Sécurité",
+          "room": "-"
+        },
+        {
+          "start": "14:45",
+          "end": "16:15",
+
+          "type": "TD",
+          "subject": "SoC",
+          "room": "I206",
+
+          "type2": "TD",
+          "subject2": "VHDL",
+          "room2": "I206"
+        }
+      ]
+    },
+    {
+      "name": "Mercredi",
+      "sessions": [
+        {
+          "start": "08:30",
+          "end": "10:00",
+          "type": "TP",
+          "subject": "VHDL",
+          "room": "Salle C"
+        },
+        {
+          "start": "10:15",
+          "end": "11:45",
+
+          "type": "TP",
+          "subject": "Rés IP",
+          "room": "-",
+
+          "type2": "-"
+        },
+        {
+          "start": "12:00",
+          "end": "13:30",
+          "type": "TP",
+          "subject": "SoC",
+          "room": "-"
+        }
+      ]
+    },
+    {
+      "name": "Jeudi",
+      "sessions": [
+        {
+          "start": "08:30",
+          "end": "10:00",
+          "type": "Cours",
+          "subject": "VHDL",
+          "room": "C"
+        },
+        {
+          "start": "10:15",
+          "end": "11:45",
+          "type": "Cours",
+          "subject": "Sécurité",
+          "room": "C"
+        },
+        {
+          "start": "13:45",
+          "end": "15:15",
+          "type": "Cours",
+          "subject": "Mobile",
+          "room": "Info"
+        },
+        {
+          "start": "15:30",
+          "end": "17:00",
+          "type": "Cours",
+          "subject": "Projet",
+          "room": "Info"
+        }
+      ]
+    },
+    {
+      "name": "Vendredi",
+      "sessions": [
+        {
+          "start": "08:30",
+          "end": "10:00",
+          "type": "Cours",
+          "subject": "Web",
+          "room": "C"
+        },
+        {
+          "start": "13:15",
+          "end": "14:45",
+          "type": "Cours",
+          "subject": "Rés IP",
+          "room": "C"
+        },
+        {
+          "start": "15:00",
+          "end": "16:30",
+          "type": "Cours",
+          "subject": "BD",
+          "room": "C"
+        }
+      ]
+    },
+    {
+      "name": "Samedi",
+      "sessions": [
+        {
+          "start": "08:30",
+          "end": "10:00",
+          "type": "Cours",
+          "subject": "Test",
+          "room": "C"
+        },
+        {
+          "start": "10:15",
+          "end": "11:45",
+          "type": "Cours",
+          "subject": "Droit",
+          "room": "Info"
+        }
+      ]
+    }
+  ]
+}

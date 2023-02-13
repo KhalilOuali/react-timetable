@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Dosis&family=Oswald&family=Rajdhani:wght@700&display=swap');
+
+:root {
+  --myblack: #222;
+}
+
+html {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  color: var(--myblack);
+  font-family: sans-serif;
+
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  padding: 15px;
+  gap: 10px;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoPane {
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: repeat(3, max-content);
+  gap: 15px;
+  padding: 0px 20px;
+}
+.infoClass {
+  font-family: 'Rajdhani';
+  font-weight: bold;
+  font-size: 44px;
+  grid-column: 1;
+}
+.infoYear {
+  font-family: 'Dosis';
+  font-size: 32px;
+  grid-column: 2;
+}
+.infoSem {
+  font-family: 'Dosis';
+  font-size: 24px;
+  grid-column: 3;
+}
+.infoVer {
+  font-family: 'Dosis';
+  font-size: 24px;
+  text-align: right;
+  grid-column: 4;
+  flex: 1;
+}
+
+.weekTable {
+  display: grid;
+  grid-auto-columns: 1fr;
+  flex: 1;
+}
+.dayTable {
+  display: grid;
+}
+
+.dayTable,
+.session {
+  outline-color: var(--myblack);
+  outline-width: 6px;
+  outline-style: solid;
+  outline-offset: -3px;
+}
+
+.dayName,
+.sessionSubject,
+.label,
+.specialLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 24px;
+}
+
+.dayName {
+  background-color: var(--myblack);
+  color: white;
+  font-family: 'Chakra Petch';
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.session {
+  display: grid;
+  padding: 10px;
+}
+.specialLabel {
+  color: #444;
+  font-size: 22px;
+}
+.roomLabel {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2px 10px 2px 10px;
+  margin-left: 8px;
+  justify-content: center;
+  font-family: 'Consolas';
+  font-size: 20px;
+}
+
+.startTime,
+.endTime {
+  display: flex;
+  justify-content: left;
+  font-style: italic;
+  font-size: 18px;
+}
+.startTime {
+  align-items: top;
+}
+.endTime {
+  align-items: end;
+}

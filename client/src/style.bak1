@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Dosis:wght@600&family=Fira+Code:wght@500&family=Oswald&family=Rajdhani:wght@700&display=swap');
+
+:root {
+  --myblack: #222;
+}
+
+html {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  color: var(--myblack);
+  font-family: sans-serif;
+
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  padding: 1vw;
+  gap: 0.5vw;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoPane {
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: repeat(3, max-content);
+  gap: 1vw;
+  padding: 0 1vw;
+}
+.infoClass {
+  font-family: 'Rajdhani';
+  font-size: 3vw;
+  grid-column: 1;
+}
+.infoYear {
+  font-family: 'Dosis';
+  font-size: 2.3vw;
+  grid-column: 2;
+}
+.infoSem {
+  font-family: 'Dosis';
+  font-size: 1.8vw;
+  grid-column: 3;
+}
+.infoVer {
+  font-family: 'Fira Code';
+  font-size: 1.8vw;
+  text-align: right;
+  grid-column: 4;
+}
+
+.weekTable {
+  display: grid;
+  grid-auto-columns: 1fr;
+  flex: 1;
+}
+.dayTable {
+  display: grid;
+}
+
+.dayTable,
+.session {
+  outline-color: var(--myblack);
+  outline-width: 0.4vw;
+  outline-style: solid;
+  outline-offset: -0.2vw;
+}
+
+.dayName,
+.sessionSubject,
+.label,
+.specialLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 1.7vw;
+}
+
+.label {
+  align-items: center;
+  gap: 0.7vw;
+}
+
+.dayName {
+  background-color: var(--myblack);
+  color: white;
+  font-family: 'Chakra Petch';
+  font-size: 1.5vw;
+  letter-spacing: 0.07vw;
+}
+
+.session {
+  display: grid;
+  padding: 0.5vw;
+}
+.specialLabel {
+  color: #444;
+  font-size: 1.5vw;
+}
+.roomLabel {
+  display: flex;
+  background-color: #fff;
+  border-radius: 0.5vw;
+  padding: 0.2vw 0.6vw;
+  justify-content: center;
+  font-family: 'Fira Code', monospace;
+  font-size: 1.2vw;
+}
+
+.startTime,
+.endTime {
+  display: flex;
+  justify-content: left;
+  font-style: italic;
+  font-size: 1.1vw;
+  font-family: sans-serif;
+}
+.startTime {
+  align-items: top;
+}
+.endTime {
+  align-items: end;
+}
