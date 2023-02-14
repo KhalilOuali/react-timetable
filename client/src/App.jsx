@@ -142,7 +142,9 @@ function Timetable() {
 	}, []);
 
 	return data === null ? (
-		<h1>Loading...</h1>
+		<>
+			<h1>⏳ Loading...</h1><h2>If you're seeing this, the server may be offline 💤</h2>
+		</>
 	) : (
 		<>
 			<InfoPane info={data.info} />
@@ -174,9 +176,17 @@ function Home() {
 			{/* <Link to={"/G1"}>G1</Link>
 			<Link to={"/G2"}>G2</Link>
 			<Link to={"/G3"}>G3</Link> */}
-			<div className="infoClass" onClick={() => navigate("G1")}>G1</div>·
-			<div className="infoClass" onClick={() => navigate("G2")}>G2</div>·
-			<div className="infoClass" onClick={() => navigate("G3")}>G3</div>
+			<div className="infoClass" onClick={() => navigate("G1")}>
+				G1
+			</div>
+			·
+			<div className="infoClass" onClick={() => navigate("G2")}>
+				G2
+			</div>
+			·
+			<div className="infoClass" onClick={() => navigate("G3")}>
+				G3
+			</div>
 		</h1>
 	);
 }
