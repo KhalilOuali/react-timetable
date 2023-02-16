@@ -4,7 +4,7 @@
 			"group": "LCE2 G1",
 			"year": "2022/2023",
 			"semester": "Semestre 2",
-			"version": "(v🥴)"
+			"version": "(v2)"
 		},
 		"colors": {
 			"Cours": "#BCEEFA",
@@ -23,21 +23,18 @@
 
 						"type": "TP",
 						"subject": "BD",
-						"room": "Linedata",
+						"room": "-",
 
 						"type2": "TP",
 						"subject2": "Sécurité",
-						"room2": "Cisco"
+						"room2": "-"
 					},
 					{
 						"start": "10:15",
 						"end": "11:45",
-
 						"type": "TP",
 						"subject": "Web",
-						"room": "Salle E",
-
-						"type2": "-"
+						"room": "Salle E"
 					},
 					{
 						"start": "13:00",
@@ -51,7 +48,7 @@
 						"end": "16:15",
 						"type": "TP",
 						"subject": "Mobile",
-						"room": "Line Data"
+						"room": "-"
 					}
 				]
 			},
@@ -78,18 +75,23 @@
 
 						"type": "TD",
 						"subject": "SoC",
-						"room": "I 106 ?",
+						"room": "I 106",
 
 						"type2": "TD",
 						"subject2": "VHDL",
-						"room2": "I 106 ?"
+						"room2": "I 106"
 					},
 					{
 						"start": "14:45",
 						"end": "16:15",
-						"type": "TD",
-						"subject": "Sécurité",
-						"room": "-"
+
+						"type": "-",
+						"subject": "-",
+						"room": "-",
+
+						"type2": "TD",
+						"subject2": "Sécurité",
+						"room2": "-"
 					}
 				]
 			},
@@ -101,14 +103,14 @@
 						"end": "11:45",
 						"type": "TP",
 						"subject": "SoC",
-						"room": "Salle C"
+						"room": "-"
 					},
 					{
 						"start": "12:00",
 						"end": "13:30",
 						"type": "TP",
 						"subject": "VHDL",
-						"room": "Salle E"
+						"room": "Salle C"
 					}
 				]
 			},
@@ -128,13 +130,6 @@
 						"type": "Cours",
 						"subject": "Sécurité",
 						"room": "C"
-					},
-					{
-						"start": "12:00",
-						"end": "13:30",
-						"type": "TD",
-						"subject": "Test",
-						"room": "Math 1/2"
 					},
 					{
 						"start": "13:45",
@@ -204,6 +199,16 @@
 						"type": "Cours",
 						"subject": "Droit",
 						"room": "Info"
+					},
+					{
+						"start": "12:30",
+						"end": "14:00",
+
+						"type": "TD",
+						"subject": "Test",
+						"room": "I 103",
+
+						"type2": "-"
 					}
 				]
 			}
@@ -214,7 +219,7 @@
 			"group": "LCE2 G2",
 			"year": "2022/2023",
 			"semester": "Semestre 2",
-			"version": "(v🥴)"
+			"version": "(v2)"
 		},
 		"colors": {
 			"Cours": "#BCEEFA",
@@ -233,11 +238,11 @@
 
 						"type": "TP",
 						"subject": "Sécurité",
-						"room": "Cisco",
+						"room": "-",
 
 						"type2": "TP",
 						"subject2": "BD",
-						"room2": "Linedata"
+						"room2": "-"
 					},
 					{
 						"start": "10:15",
@@ -278,19 +283,21 @@
 
 						"type": "TD",
 						"subject": "VHDL",
-						"room": "I 112 ?",
+						"room": "I 112",
 
 						"type2": "TD",
 						"subject2": "SoC",
-						"room2": "I 112 ?"
+						"room2": "I 112"
 					},
 					{
 						"start": "14:45",
 						"end": "16:15",
 
-						"type": "? TD",
+						"type": "TD",
 						"subject": "Sécurité",
-						"room": "-"
+						"room": "-",
+
+						"type2": "-"
 					}
 				]
 			},
@@ -302,7 +309,7 @@
 						"end": "10:00",
 						"type": "TP",
 						"subject": "SoC",
-						"room": "Salle E"
+						"room": "-"
 					},
 					{
 						"start": "10:15",
@@ -405,6 +412,16 @@
 						"type": "Cours",
 						"subject": "Droit",
 						"room": "Info"
+					},
+					{
+						"start": "12:30",
+						"end": "14:00",
+
+						"type": "-",
+
+						"type2": "TD",
+						"subject2": "Test",
+						"room2": "I 103"
 					}
 				]
 			}
@@ -415,7 +432,7 @@
 			"group": "LCE2 G3",
 			"year": "2022/2023",
 			"semester": "Semestre 2",
-			"version": "(v🥴)"
+			"version": "(v2)"
 		},
 		"colors": {
 			"Cours": "#BCEEFA",
@@ -441,18 +458,18 @@
 
 						"type": "TP",
 						"subject": "BD",
-						"room": "Salle D",
+						"room": "-",
 
 						"type2": "TP",
 						"subject2": "Sécurité",
-						"room2": "Cisco"
+						"room2": "-"
 					},
 					{
 						"start": "13:00",
 						"end": "14:30",
 						"type": "TP",
 						"subject": "Mobile",
-						"room": "Salle D"
+						"room": "-"
 					},
 					{
 						"start": "14:45",
@@ -492,12 +509,12 @@
 						"end": "16:15",
 
 						"type": "TD",
-						"subject": "VHDL",
-						"room": "I 206 ?",
+						"subject": "SoC",
+						"room": "I 206",
 
 						"type2": "TD",
-						"subject2": "SoC",
-						"room2": "I 206 ?"
+						"subject2": "VHDL",
+						"room2": "I 206"
 					}
 				]
 			},
@@ -505,26 +522,28 @@
 				"name": "Mercredi",
 				"sessions": [
 					{
+						"start": "08:30",
+						"end": "10:00",
+						"type": "TP",
+						"subject": "VHDL",
+						"room": "Salle C"
+					},
+					{
 						"start": "10:15",
 						"end": "11:45",
 
 						"type": "TP",
 						"subject": "Rés IP",
-						"room": "Cisco"
+						"room": "-",
+
+						"type2": "-"
 					},
 					{
 						"start": "12:00",
 						"end": "13:30",
 						"type": "TP",
-						"subject": "VHDL",
-						"room": "Salle D"
-					},
-					{
-						"start": "13:30",
-						"end": "15:00",
-						"type": "TP",
 						"subject": "SoC",
-						"room": "Salle D"
+						"room": "-"
 					}
 				]
 			},
