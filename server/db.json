@@ -338,6 +338,13 @@
 						"room": "C"
 					},
 					{
+						"start": "12:00",
+						"end": "13:30",
+						"type": "TD",
+						"subject": "Test",
+						"room": "Math 1/2"
+					},
+					{
 						"start": "13:45",
 						"end": "15:15",
 						"type": "Cours",
